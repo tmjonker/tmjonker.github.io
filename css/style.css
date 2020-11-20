@@ -1,0 +1,200 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: 3px;
+    background-color: #fff !important;
+    margin: 0;
+}
+
+header {
+    font-family: 'Ubuntu', sans-serif;
+    letter-spacing: 2px;
+}
+
+.navbar-brand {
+    padding-right: 20px;
+}
+
+.nav-link {
+    padding-left: 15px;
+}
+
+.logo {
+    font-size: 1.5rem;
+}
+
+.nav-spacing {
+    padding: 0 5px 0 5px;
+}
+
+#jumbo-greeting {
+    margin-top: 60px;
+}
+
+.jumbotron {
+    background-image: url("../images/code_image1.jpg");
+    opacity: 0.8;
+    background-color: #000;
+    background-size: 100%;
+    max-width: 100%;
+    height: auto;
+}
+
+.jumbo-header {
+    color: #fff;
+    width: 55%;
+    background-color: #000;
+    text-align: center;
+    opacity: 0.9;
+    border-radius: 8px;
+    padding: 15px 15px;
+}
+
+.section-header {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.about-me {
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 2px;
+    text-align: justify;
+    text-indent: 40px;
+}
+
+.section-container {
+    margin-bottom: 75px;
+}
+
+.experience-container {
+    margin-bottom: 40px
+}
+
+.first-paragraph {
+    padding-top: 15px;
+}
+
+.resume-listing {
+    font-family: 'Roboto', sans-serif;
+    padding: 30px 0;
+    letter-spacing: 2px;
+    text-align:left;
+}
+
+li {
+    padding: 6px;
+}
+
+.resume-position {
+    font-weight: bold;
+}
+
+.resume-company {
+    font-size: 1.4rem;
+}
+
+.resume-date {
+    font-size: 1.3rem;
+    font-style: italic;
+}
+
+hr {
+    width: 10%;
+}
+
+.hello {
+    width: 25%;
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px 0 15px;
+}
+
+.fedex {
+    width: 22%;
+    float: left;
+    margin-right: 30px;
+}
+
+.usfoods {
+    width: 15%;
+    float: left;
+    margin-right: 30px;
+}
+
+.reinhart {
+    width: 25%;
+    float: right;
+    margin-right: 30px;
+}
+
+.skills-container {
+    text-align: center;
+    margin-bottom: 75px;
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 2px;
+}
+
+.skill-img {
+    width: 24%;
+    margin: 30px;
+}
+
+.javafx-img {
+    width: 25%;
+    margin: 30px;
+}
+
+.css-img {
+    width: 14%;
+    margin: 30px;
+}
+
+.html-img {
+    width: 18%;
+    margin: 30px;
+}
+
+.projects-carousel {
+    padding: 15px 0;
+}
+
+.pong {
+    max-height: 600px;
+}
+
+.project-header {
+    text-align: center;
+
+}
+
+.card {
+    margin: 0 auto 40px;
+    align-content: center;
+    text-align: center;
+}
+
+.card-img-top {
+    padding: 10px;
+}
+
+.contact-container {
+    padding-top: 20px;
+}
+
+footer {
+    background-color: #f8f9fa;
+    text-align: center;
+}
+
+@media screen and (max-width: 580px) {
+    .fedex, .reinhart, .usfoods {
+        float:right !important;
+    }
+
+    .pong {
+        max-height: 400px;
+    }
+
+    
+}

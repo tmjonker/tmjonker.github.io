@@ -191,8 +191,11 @@ hr {
 }
 
 footer {
-    background-color: #f8f9fa;
     text-align: center;
+}
+
+.footer-text {
+    color: #fff;
 }
 
 @media screen and (max-width: 1000px) {
